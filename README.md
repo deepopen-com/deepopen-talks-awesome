@@ -105,3 +105,97 @@ GitHub 侧已抓到，再补 Hugging Face 模型库与几个细分方向：
 # 具身智能的开源项目
 
 
+我把 GitHub 和 Hugging Face 两个源一起查，覆盖「VLA 模型 / 人形机器人 / 仿真与世界模型 / 数据集与权重」四条线：
+具身智能的生态分布有个很清晰的分工：**GitHub 出代码与框架，Hugging Face 出权重与数据**。我两边的数据都重新抓了一遍（2026-10-29 实时），按四条线整理如下。
+
+## 一、GitHub：学习地图（入门先看这里）
+
+| 项目 | Stars | 更新 | 说明 |
+|---|---|---|---|
+| [TianxingChen/Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | 16.7k | 10-25 | Lumina 社区中文指南，最完整的入门地图 |
+| [Octoday-Hub/Embodied-AI](https://github.com/Octoday-Hub/Embodied-AI) | 3.0k | 10-26 | 星期八社区：论文/项目/课程/数据集/招聘聚合 |
+| [HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | 2.2k | 10-21 | 中山大学：Embodied AI Survey 配套论文库 |
+| [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) | 1.9k | 10-27 | LLM/VLM 驱动的机器人研究清单 |
+| [datawhalechina/dive-into-embodied-ai](https://github.com/datawhalechina/dive-into-embodied-ai) | 650 | 10-28 | 从零搭一台机器人：RL、World-Model、VLA 工程落地 |
+| [leofan90/Awesome-World-Models](https://github.com/leofan90/Awesome-World-Models) | 2.0k | 10-26 | 世界模型定义与生成式应用的论文总表 |
+
+## 二、GitHub：VLA 与基础模型
+
+| 项目 | Stars | 更新 | 亮点 |
+|---|---|---|---|
+| [FluxVLA/FluxVLA](https://github.com/FluxVLA/FluxVLA) | 768 | 10-28 | 从数据到真机部署的一体化 VLA 工程平台 |
+| [open-gigaai/giga-brain-0](https://github.com/open-gigaai/giga-brain-0) | 2.7k | 09-09 | 世界模型驱动的 VLA（配套 Giga-World-1 权重） |
+| [DAXIAORobotics/kairos](https://github.com/DAXIAORobotics/kairos) | 3.1k | 09-15 | 4B 跨本体 World-Action Model，边缘实时部署 |
+| [physical-superintelligence-lab/Psi0](https://github.com/physical-superintelligence-lab/Psi0) | 2.9k | 10 | RSS'26 人形 VLA |
+| [dexmal/dexbotic](https://github.com/dexmal/dexbotic) | 3.2k | 10 | 星尘智能 VLA 工具箱；同门 [opendm](https://github.com/dexmal/opendm) 做开放世界基座 |
+| [starVLA/starVLA](https://github.com/starVLA/starVLA) | 3.9k | 10 | 乐高式模块化 VLA 框架 |
+| [NVlabs/alpamayo](https://github.com/NVlabs/alpamayo) | 2.1k | 09 | NVIDIA 10B 推理 VLA（自动驾驶），HF 上已有 R1/1.5/2-Super 三代权重 |
+| [Mininglamp-AI/Mano-P](https://github.com/Mininglamp-AI/Mano-P) | 2.8k | 06 | GUI-VLA 边缘智能体，OSWorld 58.2% |
+
+## 三、GitHub：仿真、数据、训练基础设施
+
+| 项目 | Stars | 更新 | 亮点 |
+|---|---|---|---|
+| [Genesis-Embodied-AI/genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | 30.1k | 10-28 | 生成式物理引擎仿真平台，生态第一 |
+| [huggingface/lerobot](https://github.com/huggingface/lerobot) | 28.6k | **10-29** | 端到端机器人 AI 全家桶，GitHub↔HF 的桥梁 |
+| [RLinf/RLinf](https://github.com/RLinf/RLinf) | 5.5k | 10-28 | 具身/Agentic RL 基础设施（OSDI 2026） |
+| [StanfordVL/BEHAVIOR-1K](https://github.com/StanfordVL/BEHAVIOR-1K) | 1.8k | 10-29 | 1000 项日常任务基准，2026 挑战赛数据已在 HF |
+| [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) | 12.2k | 10-28 | 世界模型开放平台（数据集+模型+工具） |
+| [haosulab/SAPIEN](https://github.com/haosulab/SAPIEN) | 862 | 10-09 | 老牌具身仿真（PartNet-Mobility） |
+| [spear-sim/spear](https://github.com/spear-sim/spear) | 620 | 10-26 | UE5 照片级真实感仿真 |
+| [rerun-io/rerun](https://github.com/rerun-io/rerun) | 11.7k | 10-28 | 多模态机器人数据可视化/流式记录 SDK |
+
+## 四、GitHub：人形与真机硬件
+
+| 项目 | Stars | 更新 | 亮点 |
+|---|---|---|---|
+| [enactic/openarm](https://github.com/enactic/openarm) | 3.7k | 10 | 全开源人形机械臂（$6500 级） |
+| [Roboparty/roboto_origin](https://github.com/Roboparty/roboto_origin) | 2.8k | 10 | 淘宝可复现的 DIY 人形机器人 |
+| [YanjieZe/GMR](https://github.com/YanjieZe/GMR) | 2.8k | 10 | ICRA'26 人体动作→任意人形重定向 |
+| [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) | 2.4k | 10 | NVIDIA 物理仿真运动学习 |
+| [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | 13.0k | 10-28 | 开源双足小鸭子机器人（入门硬件首选，star 意外地高） |
+| [unitreerobotics/xr_teleoperate](https://github.com/unitreerobotics/xr_teleoperate) | 1.7k | 09 | 宇树 XR 遥操作 |
+| [menloresearch/asimov-1](https://github.com/menloresearch/asimov-1) | 1.4k | 10 | 开源人形整机 v1 |
+
+## 五、Hugging Face：可直接下载的权重（按赞排序）
+
+浏览入口：`pipeline_tag=robotics` 或 `filter=lerobot`。
+
+| 模型 | 赞 / 下载 | 说明 |
+|---|---|---|
+| [lerobot/smolvla_base](https://huggingface.co/lerobot/smolvla_base) | 481L / **177k** | 下载量第一，SmolVLA 基座，入门必跑 |
+| [nvidia/Alpamayo-R1-10B](https://huggingface.co/nvidia/Alpamayo-R1-10B) | 446L | 自动驾驶推理 VLA |
+| [microsoft/Magma-8B](https://huggingface.co/microsoft/Magma-8B) | 425L | 微软多模态 agent 基座（含机器人动作） |
+| [nvidia/GR00T-N1-2B](https://huggingface.co/nvidia/GR00T-N1-2B) → [N1.7-3B](https://huggingface.co/nvidia/GR00T-N1.7-3B) | 359L→177L / 66.8k | NVIDIA 人形基础模型主线，迭代到 N1.7 |
+| [openvla/openvla-7b](https://huggingface.co/openvla/openvla-7b) | 264L / 84k | 最经典的开源 VLA 基线 |
+| [openbmb/MiniCPM-RobotManip](https://huggingface.co/openbmb/MiniCPM-RobotManip) | 191L | 面壁端侧操作模型（另有 RobotTrack） |
+| [lerobot/pi05_base](https://huggingface.co/lerobot/pi05_base) | 114L / 19.6k | Physical Intelligence π0.5 开源版 |
+| [black-forest-labs/flux-3-action-base](https://huggingface.co/black-forest-labs/flux-3-action-base) | 161L | **BFL 入局动作模型**，另有 so101 / droid 微调版 |
+| [BAAI/RoboBrain2.0-7B](https://huggingface.co/BAAI/RoboBrain2.0-7B) | 128L | 智源具身大脑 |
+| [unitreerobotics/UnifoLM-VLA-Base](https://huggingface.co/unitreerobotics/UnifoLM-VLA-Base) | 20L | 宇树统一具身模型（另有 WMA 世界动作模型） |
+| [tencent/Hy-Embodied-0.5-VLA-UMI](https://huggingface.co/tencent/Hy-Embodied-0.5-VLA-UMI) | 16L | 腾讯混元具身 VLA（UMI / RoboTwin 两版） |
+
+## 六、Hugging Face：数据集（比模型更稀缺的资源）
+
+| 数据集 | 下载 | 更新 | 说明 |
+|---|---|---|---|
+| [agibot-world/AgiBotWorld2026](https://huggingface.co/datasets/agibot-world/AgiBotWorld2026) | **212.8k** | 10-24 | 智元百万级真机数据，当前下载量第一 |
+| [simple-world-lab/HiFi-UMI-2K](https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K) | 148k | 07-29 | UMI 手持采集高质量子集 |
+| [Sharpa-Robotics/SharpaDex-v1.0](https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0) | 130k | 10-27 | 灵巧手数据 |
+| [behavior-1k/2026-challenge-demos](https://huggingface.co/datasets/behavior-1k/2026-challenge-demos) | 72k | 08-05 | BEHAVIOR-1K 2026 挑战赛示范 |
+| [lerobot/abc_130k_v3_train](https://huggingface.co/datasets/lerobot/abc_130k_v3_train) | 30k | 06-29 | LeRobot 官方大规模训练集 |
+| [nvidia/video-to-data-...dexterity](https://huggingface.co/datasets/nvidia/video-to-data-robot-dexterity-task-library-and-dataset) | 23k | 08-21 | 视频转机器人数据的任务库 |
+| [OpenGalaxea/Galaxea-Open-World-Dataset](https://huggingface.co/datasets/OpenGalaxea/Galaxea-Open-World-Dataset) | 25k | 04-17 | 开放世界场景数据 |
+
+## 跨源观察
+
+1. **HF 上出现一个新品类：World-Action Model 权重**——`unitreerobotics/UnifoLM-WMA-0-Base`、`open-gigaai/Giga-World-1`、`NU-World-Model-Embodied-AI/phyworld`，说明"世界模型直接出动作"已从论文走到可下载权重。
+2. **GR00T 是迭代最快的一条线**：N1 → N1.5 → N1.6 → N1.7，半年四代，且下载量集中在最新版，生态跟随明显。
+3. **意外玩家入场**：Black Forest Labs 用 FLUX 的生成先验做 `flux-3-action-*`，并直接给了 SO-101、DROID 两个真机/数据集微调版本——生成模型公司正在切入机器人动作空间。
+4. **数据比模型更卷**：AgiBotWorld2026 单数据集 21 万下载，超过任何单个模型；`lerobot` 格式事实上已成为具身数据的"JPEG"。
+5. **国内团队在 HF 侧存在感很强**：智元、宇树、腾讯混元、面壁、智源、星尘、蚂蚁灵波（lingbot-vla）都有正式权重发布。
+
+**动手路径建议**：`lerobot/smolvla_base`（跑通推理）→ `lerobot/abc_130k_v3_train` 或 `AgiBotWorld2026`（数据）→ `nvidia/GR00T-N1.7-3B`（人形基座）→ `Genesis` 或 `BEHAVIOR-1K`（仿真评测）。
+
+ 
+
