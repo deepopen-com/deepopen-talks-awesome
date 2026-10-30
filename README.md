@@ -17,7 +17,7 @@ AI video 前沿   [AI video 前沿](https://github.com/deepopen-com/deepopen-tal
 具身智能、世界模型  [具身智能、世界模型](https://github.com/deepopen-com/deepopen-talks-awesome/blob/main/embodied-readme.md)
 
 
-
+具身智能学习入门 [具身智能学习入门](https://github.com/deepopen-com/deepopen-talks-awesome/blob/main/embodied-learn.md)
 
 
 # 世界模型的开源项目
