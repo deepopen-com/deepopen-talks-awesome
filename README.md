@@ -1,6 +1,6 @@
 # Awesome  AI video  VLLM and Embodied AI
 
-by DeepOpen
+by DeepOpen  数据、基准和榜单 [数据、基准和榜单](https://aie.gitcc.com/aic/talk/embodied-data-2026.html)
 
 ## AI Video
 
